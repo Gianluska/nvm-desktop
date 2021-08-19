@@ -16,20 +16,6 @@
 
 ## Running locally
 
-Clone de repository, open its folder and install dependencies with:
-
-```sh
-npm install
-```
-
-Run it using:
-
-```sh
-npm start
-```
-
-## Running locally
-
 Clone the repository, open its folder and install dependencies with:
 
 ```sh
