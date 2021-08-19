@@ -1,9 +1,12 @@
 const View = {
   nodeVersionElem: document.querySelector("#currentVersion"),
+
   nodeLocalVersionElem: document.querySelector("#localVersion"),
+
   renderActualVersion(version) {
     View.nodeVersionElem.innerHTML = version;
   },
+
   renderLocalVersions(versionList) {
     versionList.map((version) => {
       View.nodeLocalVersionElem.innerHTML +=
@@ -13,6 +16,7 @@ const View = {
       </button>`;
     });
   },
+  
   resetValues() {
     View.nodeVersionElem.innerHTML = "";
     View.nodeLocalVersionElem.innerHTML = "";

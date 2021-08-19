@@ -12,7 +12,7 @@ function Server() {
   app.use(cors());
 
   app.get("/", (_, res) => {
-    res.send("Hello, world!");
+    res.send("The API is running!");
   });
 
   app.get("/api/GetNodeVersion", (_, res) => {
